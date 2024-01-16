@@ -3,16 +3,24 @@ body{
     padding: 0;
 }
 
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background: #eee;
+    box-sizing: border-box;
+}
+  
+
 h2{
     text-align: center;
 }
 
 .selectbox{
     text-align: right;
-}
-
-.p{
-    text-align: center;
 }
 
 .diary{
