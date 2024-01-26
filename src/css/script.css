@@ -4,14 +4,8 @@ body{
 }
 
 header {
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    left: 0;
     width: 100%;
-    padding: 20px 40px;
-    background: #eee;
-    box-sizing: border-box;
+    height: 100px;
 }
   
 
