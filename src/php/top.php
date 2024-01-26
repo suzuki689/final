@@ -15,24 +15,18 @@ foreach ($result as $row) {
     $id = $row['id'];
     echo '<input type="hidden" name="id" value="' . $row['id'] . '">';
     echo '<div class="music-box">';
-    echo '<div class="music-name">';
+    echo '<div id="m-item">';
     echo $row['name'];
-    echo '</div>';
-    echo '<div class="music-time">';
     echo $row['time'];
     echo '</div>';
     echo '<form action="update.php" method="get">'; // フォームのアクションとメソッドを追加
-    echo '<div class="update-button">';
     echo '<input type="hidden" name="id" value="' . $row['id'] . '">';
-    echo '<button type="submit" name="update">更新</button>';
-    echo '</div>';
+    echo '<button type="submit" name="update" id="m-item">更新</button>';
     echo '</form>'; // フォームの終了タグを追加
 
     echo '<form action="delete-output.php" method="get">'; // フォームのアクションとメソッドを追加
-    echo '<div class="delete-button">';
     echo '<input type="hidden" name="id" value="' . $row['id'] . '">';
     echo '<button type="submit" name="delete">削除</button>';
-    echo '</div>';
     echo '</form>'; // フォームの終了タグを追加
 
     echo '</div>';

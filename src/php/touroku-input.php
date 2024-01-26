@@ -9,11 +9,11 @@
     <form action="touroku-output.php" method="post">
         <div class="text">曲名：</div>
         <div class="input">
-            <input type="text" name="name" value="name">
+            <input type="text" name="name" placeholder="うっせぇわ">
         </div>
         <div class="text">時間：</div>
         <div class="input">
-            <input type="text" name="time" value="time">
+            <input type="text" name="time" placeholder="3分25秒">
         </div>
         <div>
             <input type="submit" value="登録">

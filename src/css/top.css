@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.music-box{
+    margin: 0 auto;
+    width: 100%;
+}
+
+#m-item{
+    float: left;
+}
